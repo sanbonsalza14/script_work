@@ -76,3 +76,15 @@ for(let x in k_group){
   console.log(`${group}  멤버 : ${member}`)
   
 }
+
+//break :현지의 블럭을 탈출 
+// continue: 현재 아래 실핼않고 블럭계속진행 
+// return: 함수를 빠져나가는 것
+// do ~ while or while
+//1~10 까지 회전하면서, 5면 탈출
+nuber = 11
+do {
+  if(number ==5)break;
+console.log(number)
+number++;
+}while(number < 10)

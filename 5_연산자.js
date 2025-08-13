@@ -69,24 +69,3 @@ value = value && '아이브'
 console.log(value)
 
 
-const girlGroups = [
-  { group: "ive", members: ["장원영", "안유진", "이서"] },
-  { group: "에스파", members: ["카리나", "윈터", "지젤", "닝닝"] },
-  { group: "케플러", members: ["최유진", "샤오팅", "마시로"] }
-];
-
-// 문제 1) group 이름만 출력
-for (let i = 0; i < girlGroups.length; i++) {
-  console.log(girlGroups[i].group);
-}
-
-console.log('==========================');
-
-// 문제 2) 그룹명과 멤버 출력
-for (let i = 0; i < girlGroups.length; i++) {
-  const groupName = girlGroups[i].group;
-  const members = girlGroups[i].members;
-
-  console.log(`그룹명: ${groupName}`);
-  console.log(`${groupName} 멤버: ${members.join(", ")}`);
-}
